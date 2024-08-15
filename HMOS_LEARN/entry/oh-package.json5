@@ -1,0 +1,14 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "STHarLib": "file:../entry/libs/STHarLib.har",
+    "ShareHarLibs": "file:../ShareHarLib",
+    "@abner/refresh": "^1.1.7"
+  }
+}
+

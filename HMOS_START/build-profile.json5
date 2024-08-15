@@ -1,0 +1,66 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/xusl/.ohos/config/default_HMOS_START_aBSMyi3oLrEH-vBUkYotqkI3eQtd-gfULs7un-iw_gI=.cer",
+          "storePassword": "0000001A97116BE7EBF40F6CB60646FDEA072781B40419192F2CEAC1A83F799E9DF28607EDD5AB28FEC7",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001A6DF328DB6A91FD5A4E3213D9136EFFBA95579BCC93D9CC6CC38065FF70A765212C8BCE490224",
+          "profile": "/Users/xusl/.ohos/config/default_HMOS_START_aBSMyi3oLrEH-vBUkYotqkI3eQtd-gfULs7un-iw_gI=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/xusl/.ohos/config/default_HMOS_START_aBSMyi3oLrEH-vBUkYotqkI3eQtd-gfULs7un-iw_gI=.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compileSdkVersion": "4.1.0(11)",
+        "compatibleSdkVersion": "4.1.0(11)",
+        "runtimeOS": "HarmonyOS",
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "STHarLib",
+      "srcPath": "./STHarLib"
+    },
+    {
+      "name": "ShareHarLib",
+      "srcPath": "./ShareHarLib",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

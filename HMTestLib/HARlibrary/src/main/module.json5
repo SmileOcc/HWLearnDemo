@@ -1,0 +1,11 @@
+{
+  "module": {
+    "name": "HARlibrary",
+    "type": "har",
+    "deviceTypes": [
+      "default",
+      "tablet",
+      "2in1"
+    ]
+  }
+}
