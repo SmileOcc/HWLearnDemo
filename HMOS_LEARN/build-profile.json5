@@ -5,13 +5,13 @@
         "name": "default",
         "type": "HarmonyOS",
         "material": {
-          "storePassword": "0000001AB3B6889DEB2842693F59E5454F5005EFB6144CE303CDD7A8CDD9A84D1C200C63F9864F389FFC",
-          "certpath": "/Users/xusl/Documents/HWDev/KeyFile/dev_hmosLearn.cer",
-          "keyAlias": "hmosLearnAlias",
-          "keyPassword": "0000001A4CB75E1D5817AC46E60D059B8312A1294B73379DCE682133781CD5A8A05E275A51F4C810AC59",
-          "profile": "/Users/xusl/Documents/HWDev/KeyFile/dev_hmos_learnDebug.p7b",
+          "certpath": "/Users/odd/.ohos/config/default_HMOS_LEARN_NL2yhtPk6iz7fgtuGho7v9pnH1QgHEHJLBlKouIdZAI=.cer",
+          "storePassword": "0000001B69DCFEAF719E1B9E6E24AEF8258C77261EDA9E9215803BF8EB5A780B213C2E142C89728FDD893F",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B9B503ECCB4CED452A097171EE1AF28B08F4EA61030C8B7910F7DF102075CE2FD85A5E48F562FFE",
+          "profile": "/Users/odd/.ohos/config/default_HMOS_LEARN_NL2yhtPk6iz7fgtuGho7v9pnH1QgHEHJLBlKouIdZAI=.p7b",
           "signAlg": "SHA256withECDSA",
-          "storeFile": "/Users/xusl/Documents/HWDev/KeyFile/hmosLearn.p12"
+          "storeFile": "/Users/odd/.ohos/config/default_HMOS_LEARN_NL2yhtPk6iz7fgtuGho7v9pnH1QgHEHJLBlKouIdZAI=.p12"
         }
       }
     ],
@@ -20,6 +20,11 @@
         "name": "default",
         "signingConfig": "default",
         "compatibleSdkVersion": "4.1.0(11)",
+        "compileSdkVersion": "4.1.0(11)",
+        //指定HarmonyOS应用/服务兼容的最低版本。版本号需改为"4.0.0(10)"，注意使用英文.和()
+        "targetSdkVersion": "4.1.0(11)",
+        //指定HarmonyOS应用/服务目标版本。若没有设置，默认为compatibleSdkVersion
+
         "runtimeOS": "HarmonyOS",
       }
     ],
